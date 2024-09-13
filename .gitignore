@@ -1,25 +1,4 @@
-# Fichiers spécifiques à Java
-*.class
-*.jar
-*.war
-*.ear
 
-# Fichiers générés par Maven
-target/
-
-# Logs
-*.log
-
-# Fichiers spécifiques aux IDE (Eclipse, IntelliJ, etc.)
-.idea/
-.project
-.classpath
-.settings/
-*.iml
-
-# Système d'exploitation
-.DS_Store
-Thumbs.db
 
 # Exclusion du fichier .env
 .env
