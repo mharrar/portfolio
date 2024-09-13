@@ -1,33 +1,25 @@
-HELP.md
+# Fichiers spécifiques à Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Fichiers générés par Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+# Logs
+*.log
+
+# Fichiers spécifiques aux IDE (Eclipse, IntelliJ, etc.)
+.idea/
 .project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+.classpath
+.settings/
 *.iml
-*.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Système d'exploitation
+.DS_Store
+Thumbs.db
 
-### VS Code ###
-.vscode/
+# Exclusion du fichier .env
+.env

@@ -7,9 +7,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Service
 @Controller
 public class controller {
-	@GetMapping("/acceuil")
+	@GetMapping("/")
+    
+	   
+	public String redirectToAccueil() {
+	        return "redirect:/accueil";
+	    }
+	@GetMapping("/accueil")
     public String acceuil() {
-        return "acceuil"; // Nom du fichier HTML sans l'extension .html
+        return "accueil"; // Nom du fichier HTML sans l'extension .html
     }
     @GetMapping("/propos")
     public String propos() {
