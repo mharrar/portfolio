@@ -1,4 +1,4 @@
 
 
-
-.env
+#ignore ce fichier
+var.env
